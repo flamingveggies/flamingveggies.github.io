@@ -104,6 +104,10 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  font-size: 1.25em;
+}
+
 header h1 {
   float: left;
 }
@@ -133,12 +137,45 @@ nav li {
   float: right;
   height: 256px;
   width: 256px;
-  margin: 25px 0 25px 10px;
+  margin: 5px 0 5px 10px;
   border-radius: 100%;
 }
 
+.piclink {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.project {
+  color: #8d9aa5;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+ul.project {
+  padding-left: 25px;
+  padding-bottom: 10px
+}
+
+.project a {
+  font-size: .875em;
+}
+
+.projectname {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.right {
+  float: right;
+  margin-top: 50px;
+  margin-right: 65px;
+}
+
 footer p {
-  font-size: 1em;
+  font-size: 1.25em;
   margin: 0;
 }
 
