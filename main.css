@@ -88,7 +88,7 @@ h2 {
 
 h3 {
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 p, label {
@@ -148,6 +148,7 @@ nav li {
 .courses {
   color: #8d9aa5;
   line-height: 1.4em;
+
 }
 
 .piclink {
@@ -177,10 +178,15 @@ ul.project {
   margin-bottom: 5px;
 }
 
+.projectdesc {
+  line-height: 1.4em
+}
+
 .right {
   float: right;
-  margin-top: 50px;
-  margin-right: 65px;
+  margin-top: 92.5px;
+  margin-bottom: 92.5px;
+  margin-right: 50px;
 }
 
 footer p {
