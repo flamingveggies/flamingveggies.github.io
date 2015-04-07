@@ -194,15 +194,29 @@ footer p {
   margin: 0;
 }
 
-/*@media screen and (max-width: 510px) {
+@media screen and (max-width: 860px) {
+
+  header, nav, section, footer {
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+  }
+
+  .right {
+    float: none;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 660px) {
 
   body {
-    padding: 20px 0 0 0;
+    padding-top: 10px;
   }
-  
-  header, section, footer {
-    padding: 10px 15px;
-    margin: 0 auto 10px auto;
+
+  header, nav, section, footer {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -211,23 +225,32 @@ footer p {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-  }
-
-  header *, section *, footer * {
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
   }
 
-  header input[type=search] {
-    display: block;
-    margin: 5px auto;
-    width: 222px;
+  header h1 {
+    font-size: 3em;
+    width: 100%;
   }
 
-  img, #wu_logo {
+  header img {
     float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-}*/
+  ul.project {
+    padding-left: 0;
+  }
+
+  #profilepic {
+    float: none;
+    margin: 10px;
+  }
+
+  li img.piclink {
+    margin-left: 47%;
+    margin-right: 47%;
+  }
+
+}
