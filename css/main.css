@@ -145,6 +145,23 @@ nav li {
   border-radius: 100%;
 }
 
+.photogridicon {
+  height: 47px;
+  width: 47px;
+  vertical-align: middle;
+}
+
+.photogrid {
+  margin: 1px;
+}
+
+.photos {
+  float: left;
+  height: 256px;
+  width: 256px;
+  margin: 5px;
+}
+
 .courses {
   color: #8d9aa5;
   line-height: 1.4em;
@@ -206,6 +223,13 @@ footer p {
     float: none;
     margin: 0;
     margin-bottom: 10px;
+  }
+
+  .photos {
+    float: left;
+    width: 48%;
+    height: 48%;
+    margin: 1%;
   }
 
 }
